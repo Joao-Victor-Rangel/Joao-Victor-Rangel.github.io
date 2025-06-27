@@ -12,19 +12,19 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "pt-BR"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Site Title"
+title                    : "Portfolio do João Victor Rangel"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : "João Victor de Carvalho Rangel"
+description              : "Desenvolvedor Full-Stack e Engenheiro de IA. Bem-vindo ao meu portfólio."
+url                      : "https://Joao-Victor-Rangel.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "Joao-Victor-Rangel/Joao-Victor-Rangel.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -113,52 +113,83 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  name             : "João Victor Rangel"
+  avatar           : "/assets/images/bio-photo.jpg"
+  bio              : "Olá, sou o João Victor Rangel.
+Desenvolvedor Full-Stack e Engenheiro de IA com foco em criar soluções tecnológicas completas, do hardware ao software, da infraestrutura à experiência do usuário.
+
+Minha Filosofia
+Acredito que os desafios mais complexos da saúde podem ser resolvidos com sistemas que integram de forma inteligente múltiplas tecnologias. Minha paixão é ser o arquiteto dessas soluções.
+
+Jornada e Projetos Chave
+Minha experiência evoluiu do fundamental para o integrado:
+
+A Base Biomédica: Comecei com o processamento de sinais biológicos, desenvolvendo algoritmos para classificar dados de EEG.
+
+A Especialização em IA: Aprofundei em Deep Learning, construindo CNNs para análise de vídeo e reconhecimento facial.
+
+A Integração Completa: Unifiquei tudo em um Simulador Médico, um sistema end-to-end que combina VR, IoT, IA e DevOps.
+
+O Propósito: Direcionei essas habilidades para projetos de reabilitação e acessibilidade, onde a tecnologia tem um impacto humano direto.
+
+Principais Competências
+Inteligência Artificial & LLMs
+
+Large Language Models (LLMs), LangChain, LangGraph, RAG
+
+Redes Neurais Convolucionais (CNN), Deep Learning
+
+TensorFlow, PyTorch
+
+Desenvolvimento Full-Stack & DevOps
+
+Arquitetura de Back-end e Front-end
+
+Criação e consumo de APIs
+
+Docker, CI/CD, Automação de Infraestrutura
+
+VR, IoT & Sinais Biomédicos
+
+Desenvolvimento em Unity (C#) para Realidade Virtual
+
+Integração com sensores e dispositivos de hardware (IoT)
+
+Processamento de Sinais (EEG) e Análise de Dados Biomédicos"
+  location         : "São José dos Campos, SP"
+  email            : "tecnicomecjoaorangel@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "mailto:tecnicomecjoaorangel@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/Joao-Victor-Rangel"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
 
 # Site Footer
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/Joao-Victor-Rangel"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
-      # url:
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
-      # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url:
 
 
 # Reading Files

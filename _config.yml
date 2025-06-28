@@ -21,7 +21,7 @@ title                    : "Portfolio do João Victor Rangel"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "João Victor de Carvalho Rangel"
-description              : "Desenvolvedor Full-Stack e Engenheiro de IA. Bem-vindo ao meu portfólio."
+description              : "Portfólio de João Victor Rangel. Desenvolvedor Full-Stack e Engenheiro de IA focado na criação de soluções de ponta a ponta, integrando IA, DevOps, VR e IoT para resolver desafios complexos."
 url                      : "https://Joao-Victor-Rangel.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "Joao-Victor-Rangel/Joao-Victor-Rangel.github.io"
@@ -359,5 +359,14 @@ defaults:
       author_profile: true
       read_time: true
       comments: # true
+      share: true
+      related: true
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
       share: true
       related: true

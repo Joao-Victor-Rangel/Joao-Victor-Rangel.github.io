@@ -191,6 +191,11 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
 
+# Collections
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:name
 
 # Reading Files
 include:
@@ -224,6 +229,7 @@ exclude:
   - tmp
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
+
 keep_files:
   - .git
   - .svn

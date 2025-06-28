@@ -4,7 +4,7 @@ excerpt: "Desenvolvimento de um simulador háptico em realidade virtual para tre
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: https://images.unsplash.com/photo-1584467735878-13a87468a3ea?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+  overlay_image: https://images.unsplash.com/photo-1620662754933-d5db503a3883?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
   caption: "Foto de [Harsch Shivam](https://unsplash.com/@harschshivam) em [Unsplash](https://unsplash.com)"
 sidebar:
   - title: "Tecnologias"

@@ -2,8 +2,10 @@
 title: "Navegação Inteligente para Cadeirantes com Eye-Tracking e YOLOv8"
 excerpt: "Sistema de navegação assistiva que utiliza rastreamento ocular para controle de cadeira de rodas e IA para detecção de obstáculos em tempo real, garantindo maior autonomia e segurança."
 header:
-  image: /assets/images/500x300.png
-  teaser: /assets/images/500x300.png
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: https://images.unsplash.com/photo-1558694435-8a21554a65b6?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+  caption: "Foto de [ThisisEngineering RAEng](https://unsplash.com/@thisisengineering) em [Unsplash](https://unsplash.com)"
 sidebar:
   - title: "Tecnologias"
     text: "Python, YOLOv8n, OpenCV, Raspberry Pi, Edge AI, Ponte H"

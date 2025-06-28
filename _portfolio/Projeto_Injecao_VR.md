@@ -2,8 +2,10 @@
 title: "Simulador Háptico VR para Treinamento de Injeção Médica"
 excerpt: "Desenvolvimento de um simulador háptico em realidade virtual para treinamento de injeções intramusculares, utilizando VR, sensores biomédicos e controle embarcado."
 header:
-  image: /assets/images/500x300.png
-  teaser: /assets/images/500x300.png
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: https://images.unsplash.com/photo-1584467735878-13a87468a3ea?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+  caption: "Foto de [Harsch Shivam](https://unsplash.com/@harschshivam) em [Unsplash](https://unsplash.com)"
 sidebar:
   - title: "Tecnologias"
     text: "A-Frame (VR), SOFA Framework, ESP32, Sensores de Pressão (FSR), WebSocket"

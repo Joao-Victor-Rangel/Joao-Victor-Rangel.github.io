@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "pt-BR"
@@ -171,6 +171,9 @@ Processamento de Sinais (EEG) e Análise de Dados Biomédicos"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Joao-Victor-Rangel"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/joão-victor-de-carvalho-rangel-a5378a221/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
 
@@ -184,6 +187,9 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Joao-Victor-Rangel"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/joão-victor-de-carvalho-rangel-a5378a221/"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
     - label: "Bitbucket"

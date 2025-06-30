@@ -18,8 +18,8 @@ Meu objetivo é continuar a desenvolver soluções que não apenas atendam às n
 
 Adoraria trocar ideias sobre tecnologia, projetos ou oportunidades de colaboração. Sinta-se à vontade para entrar em contato!
 
-<i class="fas fa-envelope"></i> **E-mail:** [seu.email@exemplo.com](mailto:tecnicomecjoaorangel@gmail.com)  
-<i class="fab fa-linkedin"></i> **LinkedIn:** [Seu Perfil no LinkedIn](https://www.linkedin.com/in/jo%C3%A3o-victor-de-carvalho-rangel-280635242/)
+<i class="fas fa-envelope"></i> **E-mail:** [tecnicomecjoaorangel@gmail.com](mailto:tecnicomecjoaorangel@gmail.com)  
+<i class="fab fa-linkedin"></i> **LinkedIn:** [Joao Victor Rangel](https://www.linkedin.com/in/jo%C3%A3o-victor-de-carvalho-rangel-280635242/)
 
 *Este é um espaço para conversarmos sobre inovação. Me envie uma mensagem!*
 {: .notice--info} 

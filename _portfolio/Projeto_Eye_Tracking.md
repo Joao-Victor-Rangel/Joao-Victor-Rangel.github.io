@@ -4,8 +4,7 @@ excerpt: "Sistema de navegação assistiva que utiliza rastreamento ocular para 
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: https://images.unsplash.com/photo-1578574577873-e01a8830df85?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-  caption: "Foto de [ThisisEngineering RAEng](https://unsplash.com/@thisisengineering) em [Unsplash](https://unsplash.com)"
+  overlay_image: /assets/images/imagem_3.png
 sidebar:
   - title: "Tecnologias"
     text: "Python, YOLOv8n, OpenCV, Raspberry Pi, Edge AI, Ponte H"

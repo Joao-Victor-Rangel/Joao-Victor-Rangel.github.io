@@ -4,8 +4,7 @@ excerpt: "Desenvolvimento de próteses funcionais e acessíveis utilizando impre
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: https://images.unsplash.com/photo-1589254586339-43c241515a43?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-  caption: "Foto de [Danilo Alvesd](https://unsplash.com/@daniloalvesd) em [Unsplash](https://unsplash.com)"
+  overlay_image: /assets/images/imagem_6.png
 sidebar:
   - title: "Tecnologias"
     text: "AutoCAD, Autodesk Fusion 360, Impressão 3D (PLA, PETG, Resinas)"

@@ -4,8 +4,7 @@ excerpt: "Desenvolvimento de um simulador háptico em realidade virtual para tre
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: https://images.unsplash.com/photo-1554734867-bf3c00a49371?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-  caption: "Foto de [ThisisEngineering RAEng](https://unsplash.com/@thisisengineering) em [Unsplash](https://unsplash.com)"
+  overlay_image: /assets/images/imagem_4.png
 sidebar:
   - title: "Tecnologias"
     text: "A-Frame (VR), SOFA Framework, ESP32, Sensores de Pressão (FSR), WebSocket"

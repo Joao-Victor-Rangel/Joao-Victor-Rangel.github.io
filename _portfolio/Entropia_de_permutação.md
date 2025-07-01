@@ -4,8 +4,7 @@ excerpt: "Estudo sobre a aplicação de medidas de complexidade, como a entropia
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: https://images.unsplash.com/photo-1634279934313-9a3b6a0a0e5d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-  caption: "Foto de [Michael Dziedzic](https://unsplash.com/@lazycreekimages) em [Unsplash](https://unsplash.com)"
+  overlay_image: /assets/images/imagem_1.png
 sidebar:
   - title: "Técnicas & Ferramentas"
     text: "Python, Modelagem Matemática, Entropia de Permutação, Diagrama de Bifurcação, Expoente de Lyapunov."

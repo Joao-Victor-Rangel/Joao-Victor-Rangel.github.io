@@ -10,30 +10,44 @@ sidebar:
   - title: "Instituição"
     text: "UNIFESP; pesquisa de mestrado em Engenharia Biomédica"
   - title: "Stack"
-    text: "Visão computacional, YOLO como weak teacher, OpenCV, Raspberry Pi 4, métricas experimentais"
+    text: "Visão computacional, OpenCV, YOLO como weak teacher, Raspberry Pi 4, métricas experimentais"
   - title: "Métricas"
     text: "FPS, latência, F1, MAE/RMSE angular, métricas geométricas e validação com participantes"
 ---
 
-Minha pesquisa de mestrado investiga um sistema computacional baseado em visão computacional, inferência em tempo real e validação experimental com participantes. O objetivo é avaliar se um sistema próprio consegue operar em ambiente embarcado e produzir resultados mensuráveis em uma tarefa controlada de interação humano-computador.
+Pesquisa de mestrado na UNIFESP sobre um sistema computacional de visão computacional em tempo real, avaliado por métricas computacionais, geométricas e experimentais. O trabalho combina engenharia de software, IA aplicada, sistemas embarcados e metodologia científica.
 
-## Problema
+## Problema de pesquisa
 
-Sistemas de interação visual precisam ser eficientes, mensuráveis e defensáveis do ponto de vista experimental. Em ambientes embarcados, o desafio aumenta: além de detectar ou estimar sinais relevantes, o sistema precisa manter latência baixa, FPS adequado e robustez suficiente para uso em uma tarefa real.
+Como desenvolver e avaliar um sistema de visão computacional capaz de operar em tempo real, em ambiente embarcado, e produzir resultados mensuráveis em uma tarefa experimental com participantes?
 
-## Solução
+O desafio não é apenas detectar algo em vídeo. O sistema precisa ser eficiente, repetível, comparável com baseline e suficientemente robusto para sustentar uma avaliação experimental.
 
-- Pipeline completo de captura, pré-processamento, inferência e análise.
+## Hipótese
+
+Um sistema próprio de visão computacional, apoiado por modelos de referência e validado em tarefa controlada, pode apresentar desempenho suficiente para aplicações de interação humano-computador em tempo real, mesmo em ambiente embarcado.
+
+## Arquitetura do pipeline
+
+- Captura de frames a partir de câmera ou fonte de vídeo.
+- Pré-processamento da entrada visual.
+- Sistema proposto de detecção ou estimativa.
 - Uso de YOLO como referência, baseline ou weak teacher.
-- Execução e avaliação em ambiente local e embarcado.
-- Tarefa experimental inspirada em interação humano-computador.
-- Coleta de métricas computacionais, geométricas e comportamentais.
-- Validação com participantes voluntários em protocolo controlado.
+- Módulo de inferência e registro de eventos.
+- Cálculo de métricas computacionais e geométricas.
+- Avaliação experimental com participantes.
+
+## Métricas
+
+- **Computacionais:** FPS, latência e estabilidade de execução.
+- **Detecção:** F1 e comparação com baseline.
+- **Geométricas:** MAE, RMSE e erro angular quando aplicável.
+- **Experimentais:** tempo de resposta, acertos, erros e comportamento na tarefa.
 
 ## Valor técnico
 
-A força do projeto está na integração entre sistema técnico e protocolo experimental. Não se trata apenas de treinar um modelo: o trabalho envolve arquitetura de pipeline, medição de desempenho, comparação com baseline, análise de limitações e validação com usuários.
+A força do projeto está na integração entre sistema técnico e protocolo experimental. O resultado esperado não é um notebook isolado, mas um pipeline mensurável, documentado e analisável, com limitações explícitas e caminho claro para evolução.
 
 ## Impacto
 
-A pesquisa pode apoiar aplicações em interfaces acessíveis, jogos, produtividade, sistemas inteligentes e tecnologias de interação visual de baixo custo, conectando ciência aplicada a possibilidades reais de produto.
+A pesquisa pode apoiar interfaces acessíveis, jogos, produtividade, sistemas inteligentes e tecnologias de interação visual de baixo custo. Ela também demonstra maturidade em pesquisa aplicada: formular hipótese, definir métrica, construir sistema, validar e comunicar resultados.

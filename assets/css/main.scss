@@ -103,6 +103,49 @@ body {
   line-height: 1.75;
 }
 
+.proof-grid,
+.method-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.proof-grid div,
+.method-grid div {
+  min-height: 100%;
+  border: 1px solid var(--portfolio-line);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 14px 34px rgba(23, 32, 51, 0.06);
+}
+
+.proof-grid div {
+  padding: 1.2rem;
+}
+
+.proof-grid span {
+  display: block;
+  margin-bottom: 1.3rem;
+  color: var(--portfolio-accent);
+  font-size: 0.78rem;
+  font-weight: 900;
+}
+
+.proof-grid strong {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: var(--portfolio-ink);
+  font-size: 1.05rem;
+}
+
+.proof-grid p {
+  margin: 0;
+  color: var(--portfolio-muted);
+  font-size: 0.92rem;
+  line-height: 1.55;
+}
+
 .section-kicker {
   margin-bottom: 0.65rem;
   color: var(--portfolio-accent) !important;
@@ -184,6 +227,10 @@ body {
   box-shadow: 0 24px 54px rgba(23, 32, 51, 0.12);
 }
 
+.work-card.featured {
+  border-color: rgba(15, 118, 110, 0.32);
+}
+
 .work-card img {
   display: block;
   width: 100%;
@@ -216,6 +263,33 @@ body {
 
 .capability-band {
   border-bottom: 1px solid var(--portfolio-line);
+}
+
+.method-section {
+  border-bottom: 1px solid var(--portfolio-line);
+}
+
+.method-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.method-grid div {
+  padding: 1.25rem;
+  background: #172033;
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+.method-grid h3 {
+  margin-top: 0;
+  color: #f8fafc;
+  font-size: 1.03rem;
+}
+
+.method-grid p {
+  margin-bottom: 0;
+  color: rgba(248, 250, 252, 0.76);
+  font-size: 0.93rem;
+  line-height: 1.62;
 }
 
 .capability-grid {
@@ -288,7 +362,9 @@ body {
 
 @media (max-width: 900px) {
   .portfolio-metrics,
+  .proof-grid,
   .work-grid,
+  .method-grid,
   .capability-grid {
     grid-template-columns: 1fr;
   }

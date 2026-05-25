@@ -4,6 +4,8 @@ main:
     url: /
   - title: "Projetos"
     url: /portfolio/
+  - title: "Experiência"
+    url: /experience/
   - title: "Sobre"
     url: /about/
   - title: "Contato"

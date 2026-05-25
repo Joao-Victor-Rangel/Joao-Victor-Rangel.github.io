@@ -15,23 +15,38 @@ sidebar:
     text: "Integração de APIs, memória de agentes, orquestração, validação temporal e automação"
 ---
 
-Este projeto organiza uma arquitetura para automação inteligente com agentes de IA, conectando GitHub, modelos de linguagem, memória, ferramentas e Notion em um fluxo operacional. A proposta é ir além de um workflow linear: o sistema precisa manter contexto, estruturar informação, acionar ferramentas e apoiar decisões.
+Arquitetura para automação inteligente com agentes de IA, conectando eventos, modelos de linguagem, memória, ferramentas e sistemas de gestão. A proposta é sair do “prompt que responde” e chegar em um fluxo operacional capaz de organizar contexto, acionar ferramentas e produzir tarefas estruturadas.
 
-## Fluxo
+## Problema
 
-- Um webhook do GitHub captura novas issues e seus metadados.
-- Um nó de IA extrai objetivo, prioridade, contexto, responsáveis e próximos passos.
-- Um agente organiza a informação, gera resumo, mantém contexto operacional e aciona ferramentas.
-- Camadas de RAG/MCP podem conectar documentos, memória e serviços externos ao fluxo.
-- O resultado é enviado ao Notion como tarefa estruturada em um board de projeto.
+Times técnicos perdem tempo transformando mensagens, issues, documentos e decisões soltas em tarefas claras. A informação fica espalhada entre GitHub, Notion, chats e documentos, dificultando priorização, rastreabilidade e execução.
 
-## Benefícios
+## Solução
 
-- Menos tempo gasto copiando e formatando informações entre ferramentas.
-- Priorização mais clara a partir de texto não estruturado.
-- Registro centralizado e atualizado para acompanhamento de execução.
-- Base reutilizável para casos empresariais de triagem, suporte, documentação e gestão técnica.
+O fluxo usa n8n como camada de orquestração e agentes de IA como camada de interpretação, síntese e decisão assistida.
 
-## Valor técnico
+- Webhooks capturam eventos do GitHub.
+- Um nó de IA extrai objetivo, prioridade, contexto e próximos passos.
+- Um agente organiza a informação, mantém memória e aciona ferramentas.
+- Camadas de RAG/MCP conectam documentos, bases de conhecimento e serviços externos.
+- O resultado vira tarefa estruturada no Notion.
 
-O projeto demonstra uso prático de Agentic Workflows para resolver um problema real de operação. Em vez de apenas chamar um modelo, o fluxo integra eventos, memória, estruturação de dados, ferramentas e criação de tarefas em um sistema coeso.
+## Decisões de arquitetura
+
+- Separar extração de dados, raciocínio do agente e ação operacional.
+- Manter logs e saídas intermediárias para auditoria.
+- Projetar prompts com formato de saída estruturado.
+- Permitir validação humana antes de ações sensíveis.
+- Usar memória e recuperação de contexto sem transformar o agente em caixa-preta.
+
+## Valor para negócio
+
+Esse tipo de arquitetura pode apoiar triagem de demandas, suporte técnico, documentação, priorização de backlog, análise de incidentes e gestão de conhecimento. O ganho não está apenas em “usar IA”, mas em reduzir atrito operacional e preservar contexto.
+
+## Próximos passos de produção
+
+- Adicionar avaliação automática de qualidade das respostas.
+- Criar testes para prompts e ferramentas.
+- Implementar controle de versões de fluxos.
+- Adicionar observabilidade de custo, latência e taxa de erro.
+- Definir políticas de segurança para dados sensíveis.

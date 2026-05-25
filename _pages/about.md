@@ -23,7 +23,7 @@ Entre os resultados recentes, fui **1º lugar no Hackathon TMB** com uma soluç�
 - **IA aplicada e agentes:** LLMs, RAG, MCP, LangChain, LangGraph, memória de agentes, orquestração e automação inteligente.
 - **MLOps e inteligência de dados:** pipelines, validação, deploy, monitoramento, métricas de produção, engenharia de atributos e modelagem preditiva.
 - **Edge AI e visão computacional:** YOLO, OpenCV, Raspberry Pi, inferência em tempo real, FPS, latência, métricas geométricas e sistemas embarcados.
-- **Pesquisa e produto:** protocolo experimental, captação de participantes, landing pages, validação com usuários e transformação de pesquisa em MVP.
+- **Pesquisa e produto:** protocolo experimental, validação com usuários, comunicação técnica, análise de métricas e transformação de pesquisa em MVP.
 
 ## O que busco
 

@@ -1,37 +1,36 @@
 ---
-title: "MoreAutonomy: Co-otimização de Hardware e Software para Interfaces Cérebro-Computador (BCI)"
-excerpt: "Framework inovador de co-otimização para BCIs não invasivas, unindo hardware customizado e IA avançada para restaurar autonomia a pessoas com deficiências motoras."
+title: "MoreAutonomy: Interface Cérebro-Computador para Tecnologia Assistiva"
+excerpt: "Framework de co-otimização entre hardware e inteligência artificial para BCIs não invasivas, com foco em autonomia, baixa latência e uso embarcado."
 header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
+  overlay_color: "#111827"
+  overlay_filter: "0.55"
   overlay_image: /assets/images/imagem_0.png
+  teaser: /assets/images/imagem_0.png
 sidebar:
-  - title: "Tecnologias & Metodologias"
-    text: "Deep Learning, Reinforcement Learning, Hardware Customizado, Computação Probabilística, VR, LGPD."
-  - title: "Aplicações"
-    text: "Tecnologias Assistivas, Reabilitação Motora, Dispositivos Vestíveis, Controle de Cadeiras de Rodas, Robótica."
-  - title: "Competências"
-    text: "IA, Engenharia de Hardware, Processamento de Sinais, Otimização, Realidade Virtual."
+  - title: "Stack"
+    text: "Deep learning, reinforcement learning, EEG, hardware customizado, VR, LGPD"
+  - title: "Aplicação"
+    text: "Tecnologia assistiva, reabilitação motora, controle de cadeira de rodas e robótica"
+  - title: "Papel"
+    text: "Arquitetura de solução, IA aplicada, processamento de sinais e integração hardware-software"
 ---
 
-O projeto MoreAutonomy apresenta uma solução inovadora para um dos maiores desafios da neuroengenharia: o desenvolvimento de Interfaces Cérebro-Computador (BCI) não invasivas que sejam, ao mesmo tempo, precisas, rápidas e eficientes em termos de energia para uso em sistemas embarcados e portáteis.
+O MoreAutonomy investiga uma Interface Cérebro-Computador (BCI) não invasiva projetada para transformar sinais de EEG em comandos úteis para dispositivos assistivos. A proposta combina modelos de IA, simulação em realidade virtual e uma arquitetura de hardware pensada para operação local, eficiente e segura.
 
-### Objetivo
+## Problema
 
-Criar um framework completo de co-otimização, onde hardware e software são projetados em sinergia para maximizar o desempenho. O foco é restaurar a autonomia e a qualidade de vida de pessoas com severas deficiências motoras, permitindo o controle intuitivo de dispositivos como cadeiras de rodas, cursores de computador ou braços robóticos a partir de sinais cerebrais (EEG).
+BCIs não invasivas costumam enfrentar três barreiras para uso prático: ruído nos sinais, latência na inferência e consumo energético alto quando a solução depende de hardware genérico. Em tecnologia assistiva, esses pontos impactam diretamente segurança, autonomia e conforto do usuário.
 
-### Principais Inovações e Metodologia
+## Solução
 
-**Arquitetura de Hardware ("AutonomyTech"):**
-- Sistema não invasivo com Módulo Acelerador de Hardware customizado, inspirado na computação probabilística, para executar cálculos de redes neurais (Multiplicação-Acumulação) com altíssima eficiência energética.
-- Supera limitações de GPUs convencionais em aplicações vestíveis.
-- Inclui módulos para aquisição de sinal, comunicação segura com criptografia e armazenamento de dados em conformidade com a LGPD.
+O projeto propõe uma arquitetura de co-otimização: software e hardware são desenhados em conjunto para maximizar desempenho em um cenário embarcado.
 
-**Treinamento Híbrido e Personalizado de IA:**
-- Pré-treinamento com dados reais (BCI2000) usando redes neurais recorrentes.
-- Especialização com dados sintéticos e Aprendizado por Reforço (PPO) para interpretar "intenções" neurais de forma estável e eficiente.
-- Ajuste fino em Realidade Virtual (VR): personalização do modelo para o usuário final em ambiente imersivo, com fine-tuning em tempo real baseado em Curriculum Learning.
+- Pipeline de aquisição e pré-processamento de sinais de EEG.
+- Modelos neurais treinados com dados reais e refinados por simulação.
+- Uso de aprendizado por reforço para estabilizar a interpretação de intenção.
+- Ambiente de realidade virtual para personalização e validação controlada.
+- Camada de segurança e governança de dados alinhada à LGPD.
 
-### Conclusão e Impacto
+## Impacto esperado
 
-O projeto "MoreAutonomy" representa um avanço significativo ao abordar de forma completa o desafio de levar a inteligência artificial de alta performance para a computação de borda no contexto de BCIs. A metodologia de co-otimização proposta resulta em um sistema projetado para ser não apenas preciso, mas também prático, seguro e energeticamente viável para o uso diário, representando um passo importante na criação de tecnologias assistivas verdadeiramente eficazes e acessíveis.
+A abordagem busca reduzir a distância entre pesquisa e uso cotidiano, permitindo que sistemas assistivos respondam com baixa latência e maior confiabilidade. O resultado esperado é uma base técnica para controle de cadeiras de rodas, cursores, braços robóticos e outros dispositivos de apoio.

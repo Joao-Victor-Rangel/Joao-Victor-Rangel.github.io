@@ -1,12 +1,10 @@
 # main links
 main:
-  - title: "Portfólio"
+  - title: "Início"
+    url: /
+  - title: "Projetos"
     url: /portfolio/
   - title: "Sobre"
     url: /about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Contato"
+    url: /about/#contato

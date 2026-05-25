@@ -1,25 +1,37 @@
 ---
 permalink: /about/
-title: "Sobre Mim"
-excerpt: "Engenheiro Biomédico e Desenvolvedor apaixonado por criar soluções de ponta a ponta que unem hardware, software e inteligência artificial."
-last_modified_at: 2024-07-26T14:30:00-03:00
+title: "Sobre"
+excerpt: "Engenheiro de IA e pesquisador aplicado com foco em Agentic Workflows, RAG/MCP, MLOps, Edge AI, visão computacional e sistemas inteligentes."
+last_modified_at: 2026-05-25T19:30:00-03:00
 author_profile: true
 ---
 
-Olá! Eu sou o João Victor, um Engenheiro Biomédico com um forte background em desenvolvimento de software e uma paixão por resolver problemas complexos. Minha jornada na tecnologia começou com a curiosidade de entender como as coisas funcionam, desde o nível mais baixo do hardware até a implementação de sistemas inteligentes em nuvem.
+Sou João Victor Rangel, Engenheiro de IA e pesquisador aplicado com base em Engenharia Biomédica. Minha atuação conecta visão computacional, Edge AI, MLOps, automação, agentes de IA, RAG/MCP e sistemas inteligentes.
 
-Com experiência em projetos que vão desde a automação industrial até o desenvolvimento de simuladores médicos com realidade virtual, busco constantemente desafios que me permitam unificar minhas duas grandes áreas de interesse: a engenharia e a tecnologia. Acredito que a inovação mais impactante acontece na interseção entre o mundo físico e o digital.
+Minha trajetória combina pesquisa científica, engenharia de software, inteligência de dados, automação, modelos de machine learning e validação experimental. Gosto de atuar onde a solução precisa sair do slide e virar protótipo funcional: capturar dados, treinar modelos, integrar sensores, criar interfaces, medir desempenho e colocar o sistema para rodar.
 
-Meu objetivo é continuar a desenvolver soluções que não apenas atendam às necessidades técnicas, mas que também gerem um impacto positivo e significativo na vida das pessoas, especialmente na área da saúde.
+Entre os resultados recentes, fui **1º lugar no Hackathon TMB** com uma solução de machine learning para previsão de First Payment Default (FPD), combinando engenharia de atributos, validação de modelos e uma política comercial orientada por risco.
 
----
+## Experiência e atuação
 
-### Vamos nos Conectar?
+- **Self Solutions:** atuação com soluções digitais, automação e IA aplicada, conectando problemas de negócio a sistemas práticos.
+- **UNIFESP:** pesquisa de mestrado em visão computacional, inferência em tempo real, sistemas embarcados e validação experimental com participantes.
+- **Projetos aplicados:** desenvolvimento de sistemas para tecnologia assistiva, interfaces inteligentes, automação com agentes, análise de risco, VR, IoT e saúde digital.
 
-Adoraria trocar ideias sobre tecnologia, projetos ou oportunidades de colaboração. Sinta-se à vontade para entrar em contato!
+## Frentes de atuação
+
+- **IA aplicada e agentes:** LLMs, RAG, MCP, LangChain, LangGraph, memória de agentes, orquestração e automação inteligente.
+- **MLOps e inteligência de dados:** pipelines, validação, deploy, monitoramento, métricas de produção, engenharia de atributos e modelagem preditiva.
+- **Edge AI e visão computacional:** YOLO, OpenCV, Raspberry Pi, inferência em tempo real, FPS, latência, métricas geométricas e sistemas embarcados.
+- **Pesquisa e produto:** protocolo experimental, captação de participantes, landing pages, validação com usuários e transformação de pesquisa em MVP.
+
+## O que busco
+
+Tenho interesse em projetos que exigem pensamento interdisciplinar, rigor técnico e impacto humano: healthtechs, pesquisa aplicada, reabilitação, tecnologia assistiva, educação médica e automação inteligente.
+
+## Contato
+{: #contato }
 
 <i class="fas fa-envelope"></i> **E-mail:** [tecnicomecjoaorangel@gmail.com](mailto:tecnicomecjoaorangel@gmail.com)  
-<i class="fab fa-linkedin"></i> **LinkedIn:** [Joao Victor Rangel](https://www.linkedin.com/in/jo%C3%A3o-victor-de-carvalho-rangel-280635242/)
-
-*Este é um espaço para conversarmos sobre inovação. Me envie uma mensagem!*
-{: .notice--info} 
+<i class="fab fa-github"></i> **GitHub:** [Joao-Victor-Rangel](https://github.com/Joao-Victor-Rangel)  
+<i class="fab fa-linkedin"></i> **LinkedIn:** [João Victor Rangel](https://www.linkedin.com/in/jo%C3%A3o-victor-de-carvalho-rangel-280635242/)

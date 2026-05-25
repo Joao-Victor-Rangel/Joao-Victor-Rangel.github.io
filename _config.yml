@@ -12,22 +12,22 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "pt-BR"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Portfolio do João Victor Rangel"
+title                    : "João Victor Rangel"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "João Victor de Carvalho Rangel"
-description              : "Portfólio de João Victor Rangel. Desenvolvedor Full-Stack e Engenheiro de IA focado na criação de soluções de ponta a ponta, integrando IA, DevOps, VR e IoT para resolver desafios complexos."
+description              : "Portfólio de João Victor Rangel, Engenheiro de IA e pesquisador aplicado com foco em visão computacional, Edge AI, MLOps, agentes de IA, RAG/MCP e sistemas inteligentes."
 url                      : "https://Joao-Victor-Rangel.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "Joao-Victor-Rangel/Joao-Victor-Rangel.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : "João Victor Rangel"
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
 enable_copy_code_button  : # true, false (default)
@@ -115,87 +115,32 @@ analytics:
 author:
   name             : "João Victor Rangel"
   avatar           : "/assets/images/bio-photo.jpg"
-  bio              : "Olá, sou o João Victor Rangel.
-Desenvolvedor Full-Stack e Engenheiro de IA com foco em criar soluções tecnológicas completas, do hardware ao software, da infraestrutura à experiência do usuário.
-
-Minha Filosofia
-Acredito que os desafios mais complexos da saúde podem ser resolvidos com sistemas que integram de forma inteligente múltiplas tecnologias. Minha paixão é ser o arquiteto dessas soluções.
-
-Jornada e Projetos Chave
-Minha experiência evoluiu do fundamental para o integrado:
-
-A Base Biomédica: Comecei com o processamento de sinais biológicos, desenvolvendo algoritmos para classificar dados de EEG.
-
-A Especialização em IA: Aprofundei em Deep Learning, construindo CNNs para análise de vídeo e reconhecimento facial.
-
-A Integração Completa: Unifiquei tudo em um Simulador Médico, um sistema end-to-end que combina VR, IoT, IA e DevOps.
-
-O Propósito: Direcionei essas habilidades para projetos de reabilitação e acessibilidade, onde a tecnologia tem um impacto humano direto.
-
-Principais Competências
-Inteligência Artificial & LLMs
-
-Large Language Models (LLMs), LangChain, LangGraph, RAG
-
-Redes Neurais Convolucionais (CNN), Deep Learning
-
-TensorFlow, PyTorch
-
-Desenvolvimento Full-Stack & DevOps
-
-Arquitetura de Back-end e Front-end
-
-Criação e consumo de APIs
-
-Docker, CI/CD, Automação de Infraestrutura
-
-VR, IoT & Sinais Biomédicos
-
-Desenvolvimento em Unity (C#) para Realidade Virtual
-
-Integração com sensores e dispositivos de hardware (IoT)
-
-Processamento de Sinais (EEG) e Análise de Dados Biomédicos"
+  bio              : "Engenheiro de IA e pesquisador aplicado. Campeão do Hackathon TMB, trabalho com visão computacional, Edge AI, MLOps, agentes de IA, RAG/MCP e sistemas inteligentes."
   location         : "São José dos Campos, SP"
   email            : "tecnicomecjoaorangel@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:tecnicomecjoaorangel@gmail.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Joao-Victor-Rangel"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/jo%C3%A3o-victor-de-carvalho-rangel-280635242/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
 
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Joao-Victor-Rangel"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/joão-victor-de-carvalho-rangel-a5378a221/"
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
+      url: "https://www.linkedin.com/in/jo%C3%A3o-victor-de-carvalho-rangel-280635242/"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:tecnicomecjoaorangel@gmail.com"
 
 # Collections
 collections:

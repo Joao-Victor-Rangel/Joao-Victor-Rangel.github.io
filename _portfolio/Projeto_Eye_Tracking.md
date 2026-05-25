@@ -1,36 +1,33 @@
 ---
-title: "Navegação Inteligente para Cadeirantes com Eye-Tracking e YOLOv8"
-excerpt: "Sistema de navegação assistiva que utiliza rastreamento ocular para controle de cadeira de rodas e IA para detecção de obstáculos em tempo real, garantindo maior autonomia e segurança."
+title: "Navegação Assistiva com Eye-Tracking e YOLOv8"
+excerpt: "Sistema para controle de cadeira de rodas por rastreamento ocular, com detecção de obstáculos em tempo real usando visão computacional embarcada."
 header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
+  overlay_color: "#111827"
+  overlay_filter: "0.55"
   overlay_image: /assets/images/imagem_3.png
+  teaser: /assets/images/imagem_3.png
 sidebar:
-  - title: "Tecnologias"
-    text: "Python, YOLOv8n, OpenCV, Raspberry Pi, Edge AI, Ponte H"
-  - title: "Áreas"
-    text: "Inteligência Artificial, Visão Computacional, Tecnologia Assistiva, Robótica"
+  - title: "Stack"
+    text: "Python, YOLOv8n, OpenCV, Raspberry Pi, Edge AI, ponte H"
+  - title: "Área"
+    text: "Tecnologia assistiva, visão computacional, robótica e acessibilidade"
+  - title: "Papel"
+    text: "Arquitetura do sistema, controle, IA embarcada e integração com hardware"
 ---
 
-Este projeto desenvolve um sistema de navegação assistiva de ponta que permite a condução de cadeiras de rodas através do rastreamento ocular, garantindo maior autonomia e segurança para usuários com mobilidade reduzida.
+Este projeto desenvolve um sistema de navegação assistiva para cadeiras de rodas, combinando rastreamento ocular e detecção de obstáculos em tempo real. A proposta é oferecer uma alternativa de controle para pessoas com mobilidade reduzida, sem depender de joysticks ou interfaces físicas tradicionais.
 
-### Como Funciona?
+## Como funciona
 
-A solução integra hardware e software de forma inteligente para criar uma experiência de navegação fluida e segura:
+- O módulo de eye-tracking interpreta movimentos oculares como comandos de direção.
+- Um modelo YOLOv8n detecta obstáculos no ambiente em tempo real.
+- O processamento roda localmente em Raspberry Pi para reduzir latência e dependência de rede.
+- A comunicação com os motores é feita por ponte H, permitindo controle direto de movimentação.
 
-*   **👀 Rastreamento Ocular (Eye-Tracking):** A tecnologia monitora os movimentos oculares do usuário e os converte em comandos de navegação diretos, como ir para frente, para trás, esquerda e direita.
-*   **🤖 Detecção de Obstáculos com YOLOv8n:** Utilizando um modelo de inteligência artificial (YOLOv8n), o sistema identifica objetos e obstáculos em tempo real, ajustando automaticamente a trajetória para evitar colisões.
-*   **⚡ Edge AI no Raspberry Pi:** Todo o processamento de IA ocorre localmente em um Raspberry Pi. Isso elimina a dependência da internet, garantindo uma operação autônoma, de baixa latência e eficiente.
-*   **🔌 Controle por Ponte H (H-Bridge):** A comunicação é feita diretamente com os motores da cadeira de rodas através de uma Ponte H, permitindo um controle de movimentação preciso e responsivo.
+## Impacto
 
-### Impacto e Inovação
+A solução prioriza autonomia, segurança e acessibilidade. O funcionamento local aumenta a confiabilidade em ambientes reais, enquanto a detecção de obstáculos cria uma camada adicional de proteção para o usuário.
 
-O projeto representa um avanço significativo na mobilidade assistiva, focando em três pilares principais:
+## Valor técnico
 
-1.  **✅ Mais Independência:** Oferece aos usuários o controle total da cadeira de rodas sem a necessidade de interfaces físicas tradicionais, como joysticks.
-2.  **✅ Maior Segurança:** A detecção inteligente e proativa de obstáculos previne acidentes e aumenta a confiança do usuário ao navegar em ambientes complexos.
-3.  **✅ Eficiência e Acessibilidade:** O funcionamento offline não apenas reduz custos operacionais, mas também aumenta drasticamente a confiabilidade do sistema em qualquer localidade.
-
-Essa tecnologia representa um avanço significativo na mobilidade assistiva, promovendo inclusão e inovação para pessoas com deficiência.
-
-#AI #Acessibilidade #EyeTracking #YOLOv8 #EdgeAI #TecnologiaAssistiva #MachineLearning #Inovação
+O projeto integra visão computacional, controle embarcado e requisitos de segurança em um único sistema, demonstrando capacidade de trabalhar no cruzamento entre IA, robótica e aplicação biomédica.

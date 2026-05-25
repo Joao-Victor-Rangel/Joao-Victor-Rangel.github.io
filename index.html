@@ -2,35 +2,98 @@
 layout: splash
 permalink: /
 hidden: true
+classes: portfolio-home
 header:
-  overlay_color: "#5e616c"
-  overlay_filter: 0.4
+  overlay_color: "#111827"
+  overlay_filter: 0.58
   overlay_image: /assets/images/Imagem_pagina_inicial.png
   actions:
-    - label: "<i class='fas fa-fw fa-briefcase'></i> Ver Portfólio"
+    - label: "<i class='fas fa-fw fa-briefcase'></i> Ver projetos"
       url: "/portfolio/"
+    - label: "<i class='fab fa-fw fa-linkedin'></i> LinkedIn"
+      url: "https://www.linkedin.com/in/jo%C3%A3o-victor-de-carvalho-rangel"
+    - label: "<i class='fab fa-fw fa-github'></i> GitHub"
+      url: "https://github.com/Joao-Victor-Rangel"
 excerpt: >
-  Engenheiro Biomédico apaixonado por automação com IA e IoT para dispositivos médicos. Minha missão é criar soluções inovadoras que unem hardware e software para resolver desafios complexos na área da saúde.<br />
-feature_row:
-  - image_path: https://images.unsplash.com/photo-1677756119517-756a188d2d94?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-    alt: "Inteligência Artificial na Saúde"
-    title: "Inteligência Artificial na Saúde"
-    excerpt: "Desenvolvimento de sistemas de automação e diagnóstico com IA, LLMs e Deep Learning, aplicados a desafios no setor médico."
-    url: "/portfolio/"
-    btn_class: "btn--light"
-    btn_label: "Ver projetos"
-  - image_path: https://images.unsplash.com/photo-1581093452485-ce9e670e8903?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-    alt: "IoT e Automação para Dispositivos Médicos"
-    title: "IoT e Automação para Dispositivos Médicos"
-    excerpt: "Projetos de integração de hardware (IoT) e software, com foco na automação de dispositivos médicos e coleta de dados em tempo real."
-    url: "/portfolio/"
-    btn_class: "btn--light"
-    btn_label: "Ver projetos"
-  - image_path: https://images.unsplash.com/photo-1542831371-d531d36971e7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-    alt: "Desenvolvimento de Soluções Completas"
-    title: "Desenvolvimento de Soluções Completas"
-    excerpt: "Arquitetura e desenvolvimento de soluções end-to-end, do firmware de um dispositivo ao deploy em nuvem, garantindo sistemas robustos e escaláveis."
-    url: "/portfolio/"
-    btn_class: "btn--light"
-    btn_label: "Ver projetos"
+  Engenheiro de IA e pesquisador aplicado, com base em Engenharia Biomédica, focado em visão computacional, Edge AI, MLOps, agentes de IA, RAG/MCP e sistemas inteligentes.
 ---
+
+<section class="portfolio-section portfolio-intro">
+  <p class="section-kicker">Portfólio profissional</p>
+  <h2>Construo soluções que ligam pesquisa aplicada, IA e produto real.</h2>
+  <p>
+    Minha atuação combina engenharia biomédica, software, visão computacional, automação, agentes de IA e validação experimental. O foco é criar sistemas completos: da captura de dados ao modelo, da interface ao deploy, do protótipo funcional à avaliação com métricas.
+  </p>
+  <div class="portfolio-metrics">
+    <div>
+      <strong>Mestrado UNIFESP</strong>
+      <span>Pesquisa em visão computacional em tempo real, validação experimental e sistemas embarcados.</span>
+    </div>
+    <div>
+      <strong>1º lugar em hackathon</strong>
+      <span>Campeão do Hackathon TMB com solução de machine learning para previsão de FPD.</span>
+    </div>
+    <div>
+      <strong>Agentes, RAG/MCP e MLOps</strong>
+      <span>Arquiteturas para automação inteligente, memória, ferramentas, validação e deploy.</span>
+    </div>
+  </div>
+</section>
+
+<section class="portfolio-section selected-work">
+  <p class="section-kicker">Projetos em destaque</p>
+  <h2>Casos que mostram profundidade técnica e clareza de entrega.</h2>
+  <div class="work-grid">
+    <a class="work-card" href="/portfolio/Mestrado_Visao_Computacional">
+      <img src="/assets/images/imagem_3.png" alt="Pesquisa de mestrado em visão computacional">
+      <span>Mestrado UNIFESP</span>
+      <h3>Visão Computacional em Tempo Real</h3>
+      <p>Sistema experimental com inferência, métricas computacionais e validação com participantes.</p>
+    </a>
+    <a class="work-card" href="/portfolio/Hackathon_TMB_FPD">
+      <img src="/assets/images/imagem_5.png" alt="Modelo preditivo para risco de crédito">
+      <span>1º lugar Hackathon TMB</span>
+      <h3>Previsão de FPD</h3>
+      <p>Modelo de risco de crédito com validação cuidadosa, ROC AUC aproximado de 0,8 e política comercial.</p>
+    </a>
+    <a class="work-card" href="/portfolio/Projeto_n8n">
+      <img src="/assets/images/imagem_5.png" alt="Arquitetura de automação com agentes de IA">
+      <span>Agentic Workflows</span>
+      <h3>Agentes com RAG/MCP</h3>
+      <p>Arquitetura para automação inteligente com memória, ferramentas, contexto e integração operacional.</p>
+    </a>
+    <a class="work-card" href="/portfolio/Brain_Computer_Interface">
+      <img src="/assets/images/imagem_0.png" alt="Interface cérebro-computador MoreAutonomy">
+      <span>BCI + Edge AI</span>
+      <h3>MoreAutonomy</h3>
+      <p>Framework de co-otimização entre hardware e IA para interfaces cérebro-computador não invasivas.</p>
+    </a>
+  </div>
+</section>
+
+<section class="portfolio-section capability-band">
+  <p class="section-kicker">Competências</p>
+  <h2>Um perfil técnico para problemas que atravessam software e mundo físico.</h2>
+  <div class="capability-grid">
+    <div>
+      <h3>Inteligência artificial</h3>
+      <p>LLMs, RAG, MCP, agentes, LangChain, LangGraph, CNNs, PyTorch, TensorFlow e avaliação de modelos.</p>
+    </div>
+    <div>
+      <h3>MLOps e dados</h3>
+      <p>Pipelines, validação OOF/OOT, deploy, monitoramento, métricas de produção e decisão orientada por dados.</p>
+    </div>
+    <div>
+      <h3>Edge AI e sistemas físicos</h3>
+      <p>Raspberry Pi, ESP32, sensores, visão computacional em tempo real, VR, IoT e prototipagem biomédica.</p>
+    </div>
+  </div>
+</section>
+
+<section class="portfolio-section contact-strip">
+  <div>
+    <p class="section-kicker">Contato</p>
+    <h2>Vamos conversar sobre pesquisa, produto ou colaboração técnica.</h2>
+  </div>
+  <a class="btn btn--primary" href="mailto:tecnicomecjoaorangel@gmail.com">Enviar e-mail</a>
+</section>

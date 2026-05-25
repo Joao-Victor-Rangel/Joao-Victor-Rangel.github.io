@@ -1,35 +1,30 @@
 ---
 title: "Projeto Elétrico para Clínica Veterinária"
-excerpt: "Desenvolvimento de um sistema elétrico completo e seguro para uma clínica veterinária, garantindo eficiência energética, segurança e conformidade com as normas técnicas."
+excerpt: "Planejamento de infraestrutura elétrica para clínica veterinária, priorizando segurança, eficiência energética, distribuição de cargas e conformidade com normas técnicas."
 header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
+  overlay_color: "#111827"
+  overlay_filter: "0.55"
   overlay_image: /assets/images/imagem_2.png
+  teaser: /assets/images/imagem_2.png
 sidebar:
-  - title: "Tecnologias & Normas"
-    text: "NBR 5410, Dispositivos DR/DPS, Iluminação LED, Automação, Painéis Solares."
-  - title: "Aplicações"
-    text: "Estabelecimentos de saúde, clínicas veterinárias, projetos de eficiência energética."
+  - title: "Normas e recursos"
+    text: "NBR 5410, DR, DPS, iluminação LED, automação, energia solar"
+  - title: "Aplicação"
+    text: "Infraestrutura para ambiente clínico, segurança elétrica e eficiência energética"
   - title: "Competências"
-    text: "Engenharia Elétrica, Planejamento de Projetos, Gestão de Segurança, Eficiência Energética."
+    text: "Dimensionamento, planejamento técnico, documentação e gestão de risco"
 ---
 
-Este projeto foca no desenvolvimento de um sistema elétrico eficiente e seguro para uma clínica veterinária, garantindo confiabilidade, economia de energia e conformidade com as mais rigorosas normas técnicas.
+Projeto de infraestrutura elétrica para uma clínica veterinária, com foco em segurança operacional, confiabilidade dos circuitos e eficiência no consumo. A proposta considera as exigências de um ambiente de saúde, onde falhas elétricas podem comprometer equipamentos, atendimento e bem-estar dos animais.
 
-### Principais Aspectos do Projeto
+## Escopo técnico
 
-*   **Dimensionamento da Carga:** Cálculo preciso das potências necessárias para equipamentos médicos, iluminação, climatização e toda a infraestrutura administrativa.
-*   **Distribuição de Circuitos:** Separação estratégica dos circuitos para otimizar o consumo, garantir a segurança e evitar sobrecargas no sistema.
-*   **Segurança Elétrica:** Implementação de dispositivos de proteção como DRs (Diferencial Residual) e DPSs (Dispositivo de Proteção contra Surtos) para proteger pessoas, animais e equipamentos.
-*   **Eficiência Energética:** Planejamento para o uso de iluminação LED, sistemas de automação para controle de consumo e integração com fontes de energia renovável, como painéis solares.
-*   **Normas e Regulamentações:** Projeto totalmente em conformidade com a NBR 5410 e outras exigências aplicáveis a estabelecimentos de saúde.
+- Levantamento de cargas para equipamentos clínicos, iluminação, climatização e áreas administrativas.
+- Separação de circuitos críticos para reduzir risco de sobrecarga e facilitar manutenção.
+- Aplicação de dispositivos de proteção, incluindo DR e DPS.
+- Planejamento de iluminação eficiente e possibilidade de integração com automação.
+- Estrutura preparada para expansão e integração com energia solar.
 
-### Impacto e Benefícios
+## Resultado
 
-*   **Maior segurança** para profissionais, pacientes e equipamentos de alto valor.
-*   **Redução significativa** do consumo de energia e, consequentemente, dos custos operacionais.
-*   **Infraestrutura robusta e escalável**, preparada para futuras expansões e novas tecnologias na clínica.
-
-Este projeto reforça a importância de um sistema elétrico bem planejado para ambientes médicos, unindo engenharia de precisão com sustentabilidade e segurança.
-
-#EngenhariaElétrica #ProjetoElétrico #EficiênciaEnergética #Veterinária #Automação #Sustentabilidade
+O projeto entrega uma base elétrica mais segura, organizada e escalável para operação clínica. Além da conformidade normativa, a solução reduz desperdícios e melhora a previsibilidade de manutenção.

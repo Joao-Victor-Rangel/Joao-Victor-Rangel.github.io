@@ -10,12 +10,12 @@ Sou João Victor Rangel, Engenheiro de IA e pesquisador aplicado com base em Eng
 
 Minha trajetória combina pesquisa científica, engenharia de software, inteligência de dados, automação, modelos de machine learning e validação experimental. Gosto de atuar onde a solução precisa sair do slide e virar protótipo funcional: capturar dados, treinar modelos, integrar sensores, criar interfaces, medir desempenho e colocar o sistema para rodar.
 
-Entre os resultados recentes, fui **1º lugar no Hackathon TMB** com uma solução de machine learning para previsão de First Payment Default (FPD), combinando engenharia de atributos, validação de modelos e uma política comercial orientada por risco.
+Entre os resultados recentes, participei de hackathons e desafios de inovação ligados a **Harvard**, **Nestlé** e **TMB**. No **Hackathon TMB**, fui **1º lugar** com uma solução de machine learning para previsão de First Payment Default (FPD), combinando engenharia de atributos, validação de modelos e uma política comercial orientada por risco.
 
 ## Experiência e atuação
 
 - **Self Solutions:** atuação com soluções digitais, automação e IA aplicada, conectando problemas de negócio a sistemas práticos.
-- **UNIFESP:** pesquisa de mestrado em visão computacional, inferência em tempo real, sistemas embarcados e validação experimental com participantes.
+- **UNIFESP:** atuação como Engenheiro de MLOps e pesquisa de mestrado em visão computacional, inferência em tempo real, sistemas embarcados e validação experimental.
 - **Projetos aplicados:** desenvolvimento de sistemas para tecnologia assistiva, interfaces inteligentes, automação com agentes, análise de risco, VR, IoT e saúde digital.
 
 ## Frentes de atuação

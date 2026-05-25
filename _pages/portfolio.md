@@ -11,7 +11,7 @@ Este portfólio prioriza evidências: problema, métrica, abordagem, validação
 
 ## Leitura recomendada
 
-- **Dados e negócio:** comece pelo Hackathon TMB.
+- **Dados e negócio:** comece pelo Hackathon TMB e pela trilha de hackathons.
 - **Pesquisa aplicada:** veja o mestrado em visão computacional.
 - **IA generativa e automação:** veja a arquitetura de agentes com RAG/MCP.
 - **Saúde, acessibilidade e hardware:** veja MoreAutonomy, navegação assistiva e simulador háptico.

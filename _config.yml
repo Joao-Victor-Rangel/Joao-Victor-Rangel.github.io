@@ -21,7 +21,7 @@ title                    : "João Victor Rangel"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "João Victor de Carvalho Rangel"
-description              : "Portfólio de João Victor Rangel, Engenheiro de IA e pesquisador aplicado com foco em visão computacional, Edge AI, MLOps, agentes de IA, RAG/MCP e sistemas inteligentes."
+description              : "Portfólio de João Victor Rangel, Engenheiro de IA e pesquisador aplicado com foco em visão computacional, Edge AI, MLOps, agentes de IA, RAG/MCP, hackathons e sistemas inteligentes."
 url                      : "https://Joao-Victor-Rangel.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "Joao-Victor-Rangel/Joao-Victor-Rangel.github.io"
@@ -115,7 +115,7 @@ analytics:
 author:
   name             : "João Victor Rangel"
   avatar           : "/assets/images/bio-photo.jpg"
-  bio              : "Engenheiro de IA e pesquisador aplicado. Campeão do Hackathon TMB, trabalho com visão computacional, Edge AI, MLOps, agentes de IA, RAG/MCP e sistemas inteligentes."
+  bio              : "Engenheiro de IA e pesquisador aplicado. Hackathons Harvard, Nestlé e TMB; campeão do TMB. Trabalho com visão computacional, Edge AI, MLOps, agentes de IA e RAG/MCP."
   location         : "São José dos Campos, SP"
   email            : "tecnicomecjoaorangel@gmail.com"
   links:

@@ -56,7 +56,7 @@ body {
 }
 
 .page__hero--overlay {
-  min-height: 72vh;
+  min-height: 54vh;
 }
 
 .portfolio-home .page__hero--overlay .page__title {
@@ -85,6 +85,114 @@ body {
   max-width: 1180px;
   margin: 0 auto;
   padding: 4.5rem 1rem;
+}
+
+.portfolio-terminal {
+  margin-top: -5rem;
+  padding: 0 1rem 4.5rem;
+  background: linear-gradient(180deg, rgba(17, 24, 39, 0) 0%, #f5f7fb 72%);
+}
+
+.terminal-shell {
+  position: relative;
+  z-index: 2;
+  max-width: 1180px;
+  margin: 0 auto;
+  overflow: hidden;
+  border: 1px solid rgba(248, 250, 252, 0.16);
+  border-radius: 8px;
+  background:
+    radial-gradient(circle at 18% 0%, rgba(15, 118, 110, 0.28), transparent 30%),
+    linear-gradient(135deg, #111827 0%, #172033 56%, #0f172a 100%);
+  box-shadow: 0 28px 70px rgba(15, 23, 42, 0.28);
+}
+
+.terminal-topline {
+  display: flex;
+  align-items: center;
+  gap: 0.46rem;
+  border-bottom: 1px solid rgba(248, 250, 252, 0.12);
+  padding: 0.85rem 1rem;
+  color: rgba(248, 250, 252, 0.7);
+  font-size: 0.78rem;
+  font-weight: 800;
+}
+
+.terminal-topline span {
+  width: 0.72rem;
+  height: 0.72rem;
+  border-radius: 999px;
+  background: #ef4444;
+}
+
+.terminal-topline span:nth-child(2) {
+  background: #f59e0b;
+}
+
+.terminal-topline span:nth-child(3) {
+  background: #10b981;
+  margin-right: 0.5rem;
+}
+
+.terminal-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(340px, 0.8fr);
+  gap: 2rem;
+  padding: 2.5rem;
+}
+
+.terminal-label {
+  margin: 0 0 0.8rem;
+  color: #5eead4;
+  font-size: 0.78rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.terminal-grid h1 {
+  max-width: 760px;
+  margin: 0;
+  color: #f8fafc;
+  font-size: clamp(2.3rem, 5vw, 4.8rem);
+  line-height: 0.98;
+  letter-spacing: 0;
+}
+
+.terminal-copy {
+  max-width: 720px;
+  margin: 1.2rem 0 0;
+  color: rgba(248, 250, 252, 0.78);
+  font-size: 1.06rem;
+  line-height: 1.7;
+}
+
+.terminal-stats {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.85rem;
+}
+
+.terminal-stats div {
+  border: 1px solid rgba(248, 250, 252, 0.12);
+  border-radius: 8px;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.terminal-stats strong {
+  display: block;
+  color: #f8fafc;
+  font-size: 1.65rem;
+  line-height: 1;
+}
+
+.terminal-stats span {
+  display: block;
+  margin-top: 0.5rem;
+  color: rgba(248, 250, 252, 0.7);
+  font-size: 0.84rem;
+  line-height: 1.45;
 }
 
 .portfolio-section h2 {
@@ -376,6 +484,15 @@ body {
   .contact-strip {
     align-items: flex-start;
     flex-direction: column;
+  }
+
+  .terminal-grid,
+  .terminal-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .terminal-grid {
+    padding: 1.4rem;
   }
 }
 

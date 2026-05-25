@@ -17,7 +17,7 @@ Atuação com soluções digitais, automação e IA aplicada, conectando necessi
 
 ### UNIFESP
 
-Pesquisa de mestrado em visão computacional, inferência em tempo real, sistemas embarcados e validação experimental com participantes. O projeto exige construção de pipeline, definição de métricas, comparação com baseline e análise de desempenho computacional.
+Atuação como Engenheiro de MLOps e pesquisa de mestrado em visão computacional, inferência em tempo real, sistemas embarcados e validação experimental. O projeto exige construção de pipeline, definição de métricas, comparação com baseline e análise de desempenho computacional.
 
 **Competências relacionadas:** visão computacional, Edge AI, OpenCV, YOLO como referência, Raspberry Pi, FPS, latência, F1, métricas geométricas e metodologia experimental.
 
@@ -30,6 +30,7 @@ Desenvolvimento de projetos em tecnologia assistiva, machine learning para risco
 ## Evidências
 
 - **1º lugar no Hackathon TMB:** solução de machine learning para previsão de First Payment Default.
+- **Hackathons Harvard e Nestlé:** participação em desafios de inovação e tecnologia aplicada.
 - **Pesquisa de mestrado:** sistema de visão computacional em tempo real com validação experimental.
 - **Arquitetura de agentes:** workflows com memória, ferramentas, RAG/MCP e automação operacional.
 - **Projetos biomédicos e assistivos:** BCI, navegação assistiva, simulador VR e prótese impressa em 3D.
